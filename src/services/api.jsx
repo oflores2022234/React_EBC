@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const apiClient = axios.create ({
-    baseURL: 'https://node-ebc.vercel.app/ebc/v1',
+    
+    baseURL: 'https://node-ebc-ruddy.vercel.app/ebc/v1',
     timeout: 5000
 })
 
